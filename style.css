@@ -23,4 +23,23 @@ body {
     font-size: 1.8rem;
     font-weight: 600;
     margin: 0;  /* no default marge to be sure */
+    pointer-events: none;
+}
+.upperportion .buttons {
+    display: flex;
+    gap: 12px;
+}
+.upperportion button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #e8edf2;
+    transition: background-color 0.2s ease;
+}
+.upperportion button:hover {
+    background-color: #d9e0e7;
+}
+.upperportion button:active {
+    transform: translateY(1px);
 }
