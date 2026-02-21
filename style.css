@@ -1,5 +1,5 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     max-width: 1100px;
     margin: 0 auto;
     padding: 20px;
@@ -43,3 +43,66 @@ body {
 .upperportion button:active {
     transform: translateY(1px);
 }
+/*Timer Section*/
+.timersection {    /*all box*/
+    background-color: #f7f9fc;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    margin-top: 12px;
+    border-radius: 25px;
+}
+.toparea {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+.toparea button {
+    color: #f7f9fc;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #27ae60;
+    transition: background-color 0.2s ease; 
+}
+.toparea button:hover {
+    background-color: #1e8449;
+}
+.toparea button:active {
+    transform: translateY(1px);
+}
+.timer {
+    font-size: 6rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.actionarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.actionarea button {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #3498db;
+    padding: 20px 60px;
+    font-size: 2rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+    transition: background-color 0.2s ease;
+}
+.actionarea button:hover {
+    background-color: #2980b9;
+}
+.actionarea button:active {
+    transform:scale(1.02);
+}
+
+
+
