@@ -103,6 +103,46 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 .actionarea button:active {
     transform:scale(1.02);
 }
-
-
-
+/* TASK AND NOTES*/
+.task_notes {
+    display: flex;
+    gap: 12px;
+    padding: 12px;
+}
+.taskarea {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+}
+.notesarea {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    height: 120px;
+}
+.notesarea textarea {
+    border: none;
+    outline: none;
+    background-color: transparent; 
+    resize: none; 
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+}
+.logentry {
+    background-color: #f0f3f7; 
+    padding: 8px 12px;         
+    border-radius: 8px;     
+    display: flex;              
+    justify-content: space-between; 
+    font-size: 0.9rem;          
+    color: #333;              
+}
+.logarea {
+    display: flex;
+    flex-direction: column; 
+    gap: 8px; 
+    margin-top: 12px; 
+}
